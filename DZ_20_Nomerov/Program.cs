@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Task1
+namespace Task3
 {
     class Program
     {
