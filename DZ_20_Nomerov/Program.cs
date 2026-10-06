@@ -1,12 +1,17 @@
 ﻿using System;
-namespace Task1
+namespace Task16
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double e = Math.E;
-            Console.WriteLine($"Число е,округленное до десятых: {Math.Round(e, 1)}");
+            Console.Write("Введите трехзначное число: ");
+            int n = int.Parse(Console.ReadLine());
+            int lastDigit = n % 10;
+            int restOfNumber = n / 10;
+            int result = (lastDigit * 100) + restOfNumber;
+            Console.WriteLine($"Полученное число: {result}");
+            
         }
     }
 }
