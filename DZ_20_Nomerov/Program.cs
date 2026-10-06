@@ -1,12 +1,17 @@
 ﻿using System;
-namespace Task1
+namespace Task18
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double e = Math.E;
-            Console.WriteLine($"Число е,округленное до десятых: {Math.Round(e, 1)}");
+            Console.Write("а) Введите ваше имя: ");
+            string nameA = Console.ReadLine();
+            Console.WriteLine($"Введенное имя: {nameA}");
+            Console.WriteLine();
+            Console.Write("б) Введите ваше имя: ");
+            string nameB = Console.ReadLine();
+            Console.WriteLine($"Привет, {nameB}!");
         }
     }
 }
