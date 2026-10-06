@@ -1,12 +1,16 @@
 ﻿using System;
-namespace Task1
+namespace Task15
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double e = Math.E;
-            Console.WriteLine($"Число е,округленное до десятых: {Math.Round(e, 1)}");
+            int length = 543; 
+            int side = 130;   
+
+            int count = length / side;
+
+            Console.WriteLine($"Можно отрезать квадратов: {count}");
         }
     }
 }
